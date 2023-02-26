@@ -1,0 +1,388 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body{
+    font-family: 'Poppins',sans-serif;
+
+
+
+}
+
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 15px 10px;
+    align-items: center;
+    width: 100%;
+    position: fixed;
+    background-color:#fff;
+    z-index: 999;
+    
+
+}
+
+nav .logo{
+    
+    color: blue;
+    padding-left: 5px;
+    transition: 0.3s ease;
+   
+
+    
+}
+nav .logo:hover{
+    color:black;
+    cursor: pointer;
+
+}
+
+
+nav .logo span{
+    font-size: 25px;
+    font-family: sans-serif;
+
+}
+
+nav  ul{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+nav  ul li{
+    list-style: none;
+    margin-left: 30px;
+
+
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+    font-weight: 500;
+    transition: 0.3s ease;
+    font-family: sans-serif;
+
+}
+nav  ul li a:hover{
+    color: #fdc93b;
+}
+nav .btn{
+    margin-right: 30px;
+}
+
+nav .btn .blue{
+    margin-left: 15px;
+
+}
+
+nav .btn a{
+    text-decoration: none;
+    font-size: 0.9rem;
+    border-radius: 5px;
+    
+    padding: 8px;
+    width: 100px;
+
+}
+
+nav .btn .white{
+    color: black;
+    background: #fff;
+    transition: 0.3s ease;
+    border: 2px solid blue;
+}
+nav .btn .white:hover{
+    color: white;
+    background: blue;
+}
+
+nav .btn .blue{
+    color: white;
+    background: blue;
+    transition: 0.3s ease;
+}
+nav .btn .blue:hover{
+    color: blue;
+    background: white;
+    border: 2px solid blue;
+}
+
+ header{
+    
+    display: flex;
+
+    justify-content: space-around;
+    
+    align-items: center;
+    position: relative;
+    flex-wrap: wrap;
+    height: auto;
+    background:whitesmoke;
+    
+
+   
+  
+    
+    
+    
+    
+
+}
+
+header .header-two{
+    width: 30%;
+}
+
+header .header-two img{
+    height: 300px;
+    margin-top: 70px;
+    
+
+}
+
+header .header-one{
+    text-align: center;
+    width: 70%;
+}
+
+header .header-one h1{
+    text-align: center;
+    margin-left: 1  00px;
+    font-family: sans-serif;
+    padding: 13px 0px 7px 0px;
+}
+header .header-one p{
+    font-size: 15px;
+    text-align: start;
+    margin-left: 100px;
+}
+
+
+header .contenta{
+    
+    
+    background-color:lightgray;
+    padding: auto;
+    width: 130px;
+    display: flex;
+    flex-wrap: wrap;
+    border: 2px ;
+    border-radius: 10px;
+    justify-content: space-between;
+    align-items:center;
+    position: absolute;
+    margin-top: 240px;
+    margin-left: 400px;
+    
+
+    
+}
+
+header .contentb{
+    background-color:lightgray;
+    padding: auto;
+    width: 80px;
+    display: flex;
+    flex-wrap: wrap;
+    border: 2px ;
+    border-radius: 10px;
+    justify-content: space-between;
+    align-items:center;
+    position: absolute;
+    margin-top: 200px;
+    margin-left: 900px;
+    
+
+}
+
+header .contenta i{
+    font-size: 20px;
+    padding-top: 5px;
+    padding-left: 3px;
+
+}
+header .contenta p{
+    font-size: 10px;
+    padding-left: 30px;
+
+}
+header .contenta  span{
+    font-size: 15px;
+    font-family: sans-serif;
+    padding-left: 3px;
+}
+
+header .contentb i{
+    font-size: 20px;
+    padding-top: 5px;
+    padding-left: 3px;
+
+}
+header .contentb p{
+    font-size: 10px;
+    padding-left: 30px;
+
+
+}
+header .contentb  span{
+    font-size: 15px;
+    font-family: sans-serif;
+    padding-left: 3px;
+}
+
+header .cake .cake-we{
+    width: 500px;
+    border: none;
+    outline: none;
+    background-color: white;
+    display: flex;
+    height: 100px;
+    
+
+
+
+}
+
+
+.h21{
+    text-align: center;
+    margin-top: 10px;
+
+    
+}
+
+section{
+    display: flex;
+    justify-content: space-around;
+    background: whitesmoke;
+    margin: 30px 30px 0 30px;
+    align-items: center;
+}
+section .imaging{
+    height: 300px;
+    width: 400px;
+
+
+}
+#team{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 30px 20px 0px 20px;
+
+    
+}
+
+.team1{
+    display: flex;
+    justify-content:center ;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10px;
+    width: 300px;
+    border: 1px solid black;
+    border-radius: 4px;
+    text-align: center;
+
+    
+
+
+}
+.team1 img{
+    height: 300px;
+    width: 300px;
+    padding: 10px;
+
+    
+}
+
+footer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
+footer .col{
+    flex-direction: column;
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 20px;
+    
+    
+}
+
+footer .logo{
+    margin-bottom: 30px;
+}
+footer h4{
+    font-size: 14px;
+    padding-bottom: 20px;
+
+
+}
+footer p{
+    font-size: 13px;
+    margin: 0 0 8px 0;
+    
+
+}
+footer a{
+    font-size: 13px;
+    text-decoration: none;
+    color: #222;
+    margin-bottom: 10px ;
+    transition: 0.3s ease;
+}
+footer a:hover{
+    color: black;
+    text-decoration: underline;
+    font-size: 13px;
+
+
+}
+
+footer .follow{
+    margin-top: 20px;
+
+}
+footer .follow i{
+    color: #465b52;
+    padding-right: 4px;
+    cursor: pointer;
+
+}
+footer .install .row img{
+    border: 1px solid #088178;
+    border-radius: 6px;
+    
+}
+
+footer .install img{
+    margin: 10px 0 15px 0;
+}
+
+footer .follow i:hover,
+footer a:hover{
+    color: #088178;
+    cursor: pointer;
+
+}
+
+footer .copyright{
+    text-align: center;
+    width: 100%;
+}
+.section-p1{
+    padding: 40px 80px;
+}
+
+
